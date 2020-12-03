@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 regex = "1"
+
+[profile.dev]
+opt-level = 0               # Use slightly better optimizations.
+debug = true
